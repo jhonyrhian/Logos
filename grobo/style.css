@@ -1,0 +1,82 @@
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+div{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+#mono, #cor{
+    position: absolute;
+}*/
+
+#circulo_mono, #circle_mono, #bolinha_mono{
+    position: absolute;
+    border: 30px solid #000;
+    border-radius: 50%;
+}
+
+#circulo_mono{
+    height: 440px;
+    width: 460px;
+    border: 0px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #f2f6fa,#dde4eb, #292c2e);
+}
+
+#circle_mono{
+    height: 250px;
+    width: 350px;
+    border: 0px;
+    border-radius: 10%;
+    background-image:linear-gradient(purple, blue, cyan, green 50%, yellow, orange, red, rgb(255, 0, 76));
+}
+
+#bolinha_mono{
+    height: 200px;
+    width: 200px;
+    border: 20px;
+    background: radial-gradient(#f2f6fa 30%, #292c2e);
+}
+
+#corzinha{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-image: conic-gradient(from 0deg at 35% 45%, #3414eb, #b514eb 50deg,#f2613d 140deg, #f28b3d 160deg, #f2d43d 200deg, #f28b3d 240deg, #f26a3d 260deg, #f2613d 280deg, #b514eb 310deg, #3414eb 340deg);
+    background-image: linear-gradient(to bottom right, #3414eb, #b514eb, #f26f33, #f2d43d);
+    border-radius: 20%;
+}
+
+#circulo_cor, #circle_cor, #bolinha_cor{
+    position: absolute;
+    border: 30px solid #fff;
+    border-radius: 50%;
+}
+
+#circulo_cor{
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+#circle_cor{
+    height: 135px;
+    width: 135px;
+}
+
+#bolinha_cor{
+    height: 45px;
+    width: 45px;
+    border: 20px;
+    background-color: #fff;
+    margin: 0 0 210px 210px;
+}

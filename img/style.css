@@ -1,0 +1,14 @@
+body{
+    display: flex;
+}
+
+img{
+    height: 627px;
+}
+
+div{
+    position: absolute;
+    width: 1003px;
+    height: 627px;
+    background: linear-gradient(rgba(0, 0, 0, .5) , #000);
+}
