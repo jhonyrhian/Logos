@@ -7,11 +7,19 @@ html, body{
     height: 100vh;
 }
 
-#containe{
-    background-color: purple;
-    position: absolute;
+#containe, #inputs, #buttons, .container_total{
     display: flex;
     flex-direction: column;
+}
+
+#containe, .simbolo, .simbolo div, .p_branco, .branco, .texto, .dot_pai, .dot{
+    position: absolute;
+}
+
+
+
+#containe{
+    background-color: purple;
     align-items: center;
     padding: 15px;
     margin: 10px; 
@@ -19,8 +27,6 @@ html, body{
 }
 
 #inputs{
-    display: flex;
-    flex-direction: column;
     margin-bottom: 10px;
 }
 
@@ -28,23 +34,14 @@ input{
     margin-right:5px;
 }
 
-#buttons{
-    display: flex;
-    flex-direction: column;
-}
-
 button{
     padding: 5px 10px; 
-    margin: 5px 10px; /*
-    background-color: #000;
-    color: #fff; */
+    margin: 5px 10px;
     border: 0;
     border-radius: 5px;
 }
 
 .container_total {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -58,12 +55,10 @@ button{
 
 .simbolo{
     z-index: -2;
-    position: absolute;
     margin-bottom: 245px;
 }
 
 .simbolo div{
-    position: absolute;
     transform: rotate(-29deg);
     width: 65px;
     background: black;
@@ -87,12 +82,9 @@ button{
     margin-top: 88px;
     margin-left: 224px;
 }
-.p_branco{
-    position: absolute;
-}
+
 .branco{
     z-index: -1;
-    position: absolute;
     margin-top: 289px;
     height:40px;
     width: 401px;
@@ -101,6 +93,7 @@ button{
 
 .p_branco :nth-child(2){
     z-index: 1;
+    width: 260px;
     height:17px;
     margin-top: 289px;
 }
@@ -112,7 +105,6 @@ button{
 }
 
 .texto{
-    position: absolute;
     margin-top: 250px;
     margin-left: 7px;
     font-family: 'Didact Gothic', sans-serif;
@@ -120,11 +112,9 @@ button{
     font-size:130px;
 }
 .dot_pai{
-    position: absolute;
     margin-top: 6px;
 }
 .dot{
-    position: absolute;
     width:12px;
     height:20px;
     margin-top: 290px;
